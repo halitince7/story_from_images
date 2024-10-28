@@ -1,0 +1,9 @@
+numpy==1.24.3
+transformers
+torch
+streamlit
+Pillow
+langchain
+langchain-community
+python-dotenv
+
