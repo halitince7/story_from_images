@@ -164,8 +164,9 @@ def generate_story(scenario):
     
     prompt = PromptTemplate(
         input_variables=["scenario"],
-        template="""Write a creative and engaging short story (about 100 words) about this scenario: {scenario}. 
-        Make it interesting and descriptive with a clear beginning, middle, and end."""
+        template="""Write an interesting and funny to make people 
+        laugh and creative and engaging short story (about 50 words) 
+        about this scenario: {scenario}. """
     )
     
     chain = prompt | llm
